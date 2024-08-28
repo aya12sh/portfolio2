@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.capitalize{
+    text-transform: capitalize
+}
+.space-x-sm{
+    padding-left: var(--sm);
+    padding-right: var(--sm);
+}
+.space-x-md{
+    padding-left: var(--md);
+    padding-right: var(--md);
+}
+.space-x-lg{
+    padding-left: var(--lg);
+    padding-right: var(--lg);
+}
+.space-x-xl{
+    padding-left: var(--xl);
+    padding-right: var(--xl);
+}
