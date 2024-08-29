@@ -12,12 +12,12 @@
 <body>
   <main>
       <!-- start header by aya -->
-      <header class="po-header">
-          <div class="po-header__logo">
-              <img src="./assets/imgs/Logologo.png" alt="">
-          </div>
+      <header class="po-header flex justify-between items-center space-x-xl">
+          <a href="/" class="po-header__logo">
+              <img src="./assets/imgs/Logologo.png" alt="portfolio" width="164">
+          </a>
           <nav class="po-header__nav">
-              <ul>
+              <ul class="flex po-header__list">
                   <li><a href="#home">home</a></li>
                   <li><a href="#">expertise</a></li>
                   <li><a href="#">about me</a></li>
@@ -26,7 +26,7 @@
               </ul>
           </nav>
           <div class="po-header__contact">
-              <a href="#contact-me">contact me</a>
+              <button type="button" class="btn btn-border">contact me</button>
           </div>
       </header>
       <!-- end header -->
