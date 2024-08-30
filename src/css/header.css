@@ -1,8 +1,11 @@
+.po-header{
+    height: 4.5rem;
+}
 .po-header__nav > ul > li:not(.po-header__nav > ul > li:first-child){
     margin-left: 2rem;
 
 }
 .po-header__nav > ul > li > a{
-    font-size: 0.9;
+    font-size: 0.9rem;
     
 }
