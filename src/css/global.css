@@ -1,3 +1,11 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--font-size);
+    color: var(--body-color);
+}
+
 li {
     list-style: none;
 }
@@ -9,9 +17,11 @@ a {
 }
 
 .po-sec {
+    padding-left: var(--2xl);
+    padding-right: var(--2xl);
+    margin-top: var(--3xl);
+}
 
-    padding-left: var(--xl);
-    padding-right: var(--xl);
-    margin-bottom: var(--3xl);
-
+figure {
+    margin: 0;
 }

@@ -1,3 +1,14 @@
 .po-home-sec>*{
   width: 50%;
 }
+.po-home-sec h1>span{
+  color: var(--primary-color);
+}
+.po-home-sec p{
+  max-width: 75%;
+  line-height: 1.5;
+}
+
+.po-home-sec button{
+ margin-top: var(--lg);
+}
