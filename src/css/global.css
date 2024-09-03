@@ -1,8 +1,17 @@
-li{
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--body-color);
     text-transform: capitalize;
+}
+
+.po-sec {
+
+    padding-left: var(--xl);
+    padding-right: var(--xl);
+    margin-bottom: var(--3xl);
+
 }

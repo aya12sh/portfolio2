@@ -1,15 +1,18 @@
 @import "./normalize.css";
 @import "./global.css";
-@import "./header.css";
 @import "./framework.css";
+@import "./header.css";
+@import "./sections.css";
 :root{
   --primary-color: #5E3BEE;
   --body-color: #1C1E53;
+  --heading-color: #282938;
   --font-size: 14px;
   --sm: 8px;
   --md: 12px;
   --lg: 24px;
   --xl: 36px;
+  --3xl: 56px;
 }
 
 html{
