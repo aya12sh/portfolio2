@@ -3,10 +3,12 @@
 @import "./framework.css";
 @import "./header.css";
 @import "./sections.css";
-:root{
+
+:root {
   --primary-color: #5E3BEE;
   --body-color: #1C1E53;
   --heading-color: #282938;
+  --shade-color: #F5FCFF;
   --font-size: 14px;
   --sm: 8px;
   --md: 12px;
@@ -14,6 +16,5 @@
   --xl: 36px;
   --2xl: 48px;
   --3xl: 56px;
+  --4xl: 72px;
 }
-
-

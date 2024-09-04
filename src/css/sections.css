@@ -1,14 +1,21 @@
-.po-home-sec>*{
+.po-home-sec>* {
   width: 50%;
 }
-.po-home-sec h1>span{
+
+.po-home-sec h1>span {
   color: var(--primary-color);
 }
-.po-home-sec p{
+
+.po-home-sec p {
   max-width: 75%;
   line-height: 1.5;
 }
 
-.po-home-sec button{
- margin-top: var(--lg);
+.po-home-sec button {
+  margin-top: var(--lg);
+}
+
+.po-skills-container {
+  gap: 2rem;
+  margin-top: var(--4xl);
 }

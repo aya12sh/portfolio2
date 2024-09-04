@@ -20,8 +20,26 @@ a {
     padding-left: var(--2xl);
     padding-right: var(--2xl);
     margin-top: var(--3xl);
+    min-height: 100vh;
 }
 
 figure {
     margin: 0;
+}
+
+.skill-card {
+    background-color: var(--shade-color);
+    border-radius: 4px;
+    padding: 24px;
+    max-width: 18%;
+}
+.po-skill__icon{
+    background-color: white;
+    width: var(--xl);
+    height: var(--xl);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0 , 0, 0.1);
 }
