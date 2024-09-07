@@ -31,3 +31,16 @@
 font-size: 1.3rem;
 text-transform: capitalize;
 }
+.po-cont{
+  padding: 12px;
+}
+.po-cont h3{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.po-cont p {
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--body-color);
+}

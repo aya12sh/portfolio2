@@ -43,3 +43,26 @@ figure {
     border-radius: 4px;
     box-shadow: 2px 2px 6px rgba(0, 0 , 0, 0.1);
 }
+.po-portfolio__projects{
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.po-project__card{
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0 , 0, 0.1);
+}
+.po-project__card-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 356px;
+}
+.po-project__card:nth-child(2)>div:first-child{
+    background-image:  url("../../assets/imgs/po-protofolio.png");
+    }
+.po-project__card:first-child>div:first-child{
+background-image: url("../../assets/imgs/po-3.png");
+}
+.po-project__card:nth-child(3)>div:first-child{
+    background-image: url("../../assets/imgs/po-2.png");
+    }
