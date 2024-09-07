@@ -35,8 +35,8 @@ figure {
 }
 .po-skill__icon{
     background-color: white;
-    width: var(--xl);
-    height: var(--xl);
+    width: var(--2xl);
+    height: var(--2xl);
     display: flex;
     justify-content: center;
     align-items: center;

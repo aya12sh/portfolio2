@@ -50,21 +50,23 @@
     color: white
 }
 .sec-title>span{
-   font-size: 0.85rem;
+   font-size: 1rem;
    color: var(--heading-color);
    font-weight: 600;
    text-transform: capitalize;
 }
 .sec-title>h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--heading-color);
     font-weight: 700;
     line-height: 1.3;
     text-transform: capitalize;
+    margin: 1rem 0;
  }
  .sec-title>h2{
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--heading-color);
     font-weight: 700;
     text-transform: capitalize;
+    margin: 1rem 0;
  }

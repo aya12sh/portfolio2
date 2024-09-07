@@ -19,3 +19,15 @@
   gap: 2rem;
   margin-top: var(--4xl);
 }
+
+.po-about-sec>* {
+  width: 50%;
+}
+
+.po-about-sec .po-text-container>p {
+  line-height: 1.5;
+}
+.po-skill__title>h3{
+font-size: 1.3rem;
+text-transform: capitalize;
+}
