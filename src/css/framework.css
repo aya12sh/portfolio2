@@ -37,7 +37,7 @@
   font-weight: 400;
   font-size: 0.95rem;
   text-transform: capitalize;
-  max-width: 8rem;
+  max-width: 12rem;
   transition: all 0.3s ease-in;
 }
 .btn-border{
@@ -48,6 +48,11 @@
 .btn-primary{
     background-color: var(--primary-color);
     color: white
+}
+.btn-dribble{
+    background-color: var(--dribble-color);
+    color: white;
+    
 }
 .sec-title>span{
    font-size: 1rem;
@@ -70,3 +75,4 @@
     text-transform: capitalize;
     margin: 1rem 0;
  }
+ 
