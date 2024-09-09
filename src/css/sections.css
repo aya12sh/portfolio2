@@ -1,14 +1,46 @@
-.po-home-sec>*{
+.po-home-sec>* {
   width: 50%;
 }
-.po-home-sec h1>span{
+
+.po-home-sec h1>span {
   color: var(--primary-color);
 }
-.po-home-sec p{
+
+.po-home-sec p {
   max-width: 75%;
   line-height: 1.5;
 }
 
-.po-home-sec button{
- margin-top: var(--lg);
+.po-home-sec button {
+  margin-top: var(--lg);
+}
+
+.po-skills-container {
+  gap: 2rem;
+  margin-top: var(--4xl);
+}
+
+.po-about-sec>* {
+  width: 50%;
+}
+
+.po-about-sec .po-text-container>p {
+  line-height: 1.5;
+}
+.po-skill__title>h3{
+font-size: 1.3rem;
+text-transform: capitalize;
+}
+.po-cont{
+  padding: 12px;
+}
+.po-cont h3{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.po-cont p {
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--body-color);
 }

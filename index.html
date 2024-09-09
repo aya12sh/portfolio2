@@ -24,9 +24,15 @@
         <ul class="flex po-header__list">
           <li><a href="#home">home</a></li>
           <li><a href="#expertise">expertise</a></li>
+<<<<<<< HEAD
           <li><a href="#about">about me</a></li>
           <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#testimonials">testimonials</a></li>
+=======
+          <li><a href="#about-me">about me</a></li>
+          <li><a href="#">portfolio</a></li>
+          <li><a href="#">testimonials</a></li>
+>>>>>>> bed1051e3b9ec97bf5fb6ebeb3c93878fd63027b
         </ul>
       </nav>
       <div class="po-header__contact">
@@ -61,48 +67,54 @@
             <h2> my expertise</h2>
           </div>
         </div>
-        <div class="po-skills-container">
-          <div class="po-skill">
+        <div class="po-skills-container flex justify-between">
+          <div class="po-skill skill-card">
             <div class="po-skill__card">
-              <div class=" po-skill__icon"> <i class="fa-regular fa-paper-plane"></i></div>
+              <div class=" po-skill__icon"> 
+                <img src="./assets/imgs/product-chain 1 (1).png" alt="" width="40" height="40">
+              </div>
               <div class="po-skill__title">
                 <h3>strategy & direction</h3>
               </div>
               <div class="po-skill__text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero cupiditate distinctio</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
               </div>
             </div>
           </div>
-          <div class="po-skill">
-            <div class="po-skill__card">
-              <div class="po-skill__icon"><i class="fa-solid fa-tag"></i></div>
-              <dive class="po-skill__title">
+          <div class="po-skill__card skill-card">
+              <div class="po-skill__icon">
+                <img src="./assets/imgs/tag1.png" alt="" width="40" height="40">
+               </div>
+              <div class="po-skill__title">
                 <h3> branding & logo</h3>
-              </dive>
-              <dive class="po-skill__text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non?</p>
-              </dive>
-            </div>
+              </div>
+              <div class="po-skill__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
           </div>
-          <div class="po-skill">
-            <div class=" po-skill__card">
-              <div class=" po-skill__icon"><i class="fa-solid fa-feather"></i></div>
+          <div class="po-skill__card skill-card">
+            <div class="po-skill__card">
+              <div class="po-skill__icon">
+                <img src="./assets/imgs/feather-pen 1.png" alt="" width="40" height="40">
+              </div>
               <div class="po-skill__title">
                 <h3> ui & ux design</h3>
               </div>
               <div class="po-skill__text">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
               </div>
             </div>
           </div>
-          <div class="po-skill">
+          <div class="po-skill__card skill-card">
             <div class="po-skill__card">
-              <div class="po-skill__icon"><i class="fa-solid fa-code"></i> </div>
+              <div class="po-skill__icon">
+                <img src="./assets/imgs/code.png" alt="" width="40" height="40">
+              </div>
               <div class="po-skill__title">
                 <h3>webflow development </h3>
               </div>
               <div class="po-skill__text">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
               </div>
             </div>
           </div>
@@ -110,77 +122,74 @@
       </section>
       <!--end section 2 expertise-->
       <!--start section 3 about me -->
-      <section class="po-sec po-about-sec" id="about">
+      <section class="po-sec po-about-sec flex justify-between items-center" id="about-me">
         <div class="po-img-container">
-          <img src="./assets/imgs/About Me-1.png" alt=".">
+          <img src="./assets/imgs/AboutMe.png" alt="." width="85%">
         </div>
         <div class="po-text-container">
           <div class="sec-title">
             <span>about</span>
             <h2> about me</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore rem iure facilis id omnis. Provident, </p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, illo!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque. </p>
+          <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
         </div>
       </section>
       <!--end section 3 about me-->
       <!-- start section 4 my portfolio section -->
-      <section id="portfolio" class="po-sec po-sec__portfolio h-screen flex flex-col">
-        <div class="po-portfolio__title flex justify-between py-4">
-          <div class="po-title flex flex-col">
-            <div class="sec-title">
-              <span class="text-lg bold mb-8 capitalize">recent project</span>
-              <h2 class="text-5xl capitalize">my portfolio</h2>
-            </div>
+      <section id="portfolio" class="po-sec po-sec__portfolio">
+        <div class="po-portfolio__title flex justify-between items-center">
+          <div class="po-title sec-title">
+              <span class="">recent project</span>
+              <h2 class="">my portfolio</h2>
           </div>
           <div class="po-dribble-btn">
-            <a href="/" class="btn btn-dribble">
-              <i class="fa-solid fa-basketball"></i>
+            <button class="btn btn-dribble">
               visit my dribble
-            </a>
+            </button>
           </div>
         </div>
-        <div class="po-portfolio__projects grid grid-cols-3 gap-x-8 py-4">
-          <div class="po-projects__card po-box box-shadow">
-            <img src="./assets/imgs/po-protofolio.png" alt="" class="" />
-            <div class="cont">
-              <h3 class="text-2xl bold mt-8 capitalize">Ahuse</h3>
-              <p class="leading-relaxed text-lg mb-6">
+        <div class="po-portfolio__projects flex">
+          <div class="po-project__card">
+           <div class="po-project__card-img"></div>
+            <div class="po-cont">
+              <h3 class="">Ahuse</h3>
+              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#" class="text-lg bold mb-8 capitalize btn-link">
+              <a href="#" class="">
+                view in dribble
+                <i class=""></i>
+              </a>
+            </div>
+          </div>
+          <div class="po-project__card">
+            <div class="po-project__card-img"></div>
+            <div class="po-cont">
+              <h3>Ahuse</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quas, sequi
+              </p>
+              <a href="#">
                 view in dribble
                 <i class="fa-solid fa-arrow-up"></i>
               </a>
             </div>
           </div>
-          <div class="po-projects__card po-box box-shadow">
-            <img src="./assets/imgs/po-2.png" alt="" />
-            <div class="cont">
-              <h3 class="text-2xl bold mt-8 capitalize">Ahuse</h3>
-              <p class="leading-relaxed text-lg mb-6">
+          <div class="po-project__card">
+            <div class="po-project__card-img"></div>
+            <div class="po-cont">
+              <h3>Ahuse</h3>
+              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#" class="text-lg bold mb-8 capitalize btn-link">
-                view in dribble
-                <i class="fa-solid fa-arrow-up"></i>
-              </a>
-            </div>
-          </div>
-          <div class="po-projects__card po-box box-shadow">
-            <img src="./assets/imgs/po-3.png" alt="" />
-            <div class="cont">
-              <h3 class="text-2xl bold mt-8 capitalize">Ahuse</h3>
-              <p class="leading-relaxed text-lg mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quas, sequi
-              </p>
-              <a href="#" class="text-lg bold mb-8 capitalize btn-link">
+              <a href="#">
                 view in dribble
                 <i class="fa-solid fa-arrow-up"></i>
               </a>
@@ -190,62 +199,60 @@
       </section>
       <!-- end section 4 my portfolio section -->
       <!-- start section 5 testimonials -->
-      <section id="testimonials" class="po-sec po-sec__testimonials h-screen bg-muted flex-col pt-24">
-        <div class="po-testimonial__title">
-          <div class="sec-title">
-            <span class="">clients feedback </span>
-            <h2 class="">customer testimonials</h2>
-          </div>
+      <section id="testimonials" class="po-sec po-sec__testimonials">
+        <div class="po-testimonial__title sec-title">
+            <span>clients feedback </span>
+            <h2>customer testimonials</h2>
         </div>
-        <div class="po-testimonial__container grid grid-cols-3 gap-x-8 py-4">
-          <div class="po-feedback-card po-box muted-border">
-            <div class="feedback__icon py-4">
+        <div class="po-testimonial__container">
+          <div class="po-feedback-card">
+            <div class="feedback__icon">
               <img src="./assets/imgs/Stars.png" alt="">
             </div>
-            <div class="feedback__text py-4">
-              <p class="leading-relaxed text-lg"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+            <div class="feedback__text">
+              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
                 velit?</p>
             </div>
-            <div class="feedback__person flex py-4 ">
-              <div><img src="./assets/imgs/Avatar Image.png" alt="" class="po-person__img h-16 w-16 rounded-full pr-5">
+            <div class="feedback__person">
+              <div><img src="./assets/imgs/Avatar Image.png" alt="" class="po-person__img">
               </div>
-              <div class="po-person__name flex flex-col">
-                <span class="text-lg semibold">sam sam</span>
-                <span class="text-lg">@fdghh</span>
+              <div class="po-person__name">
+                <span>sam sam</span>
+                <span>@fdghh</span>
               </div>
             </div>
           </div>
-          <div class="po-feedback-card po-box muted-border">
-            <div class="feedback__icon py-4">
+          <div class="po-feedback-card">
+            <div class="feedback__icon">
               <img src="./assets/imgs/Stars.png" alt="">
             </div>
-            <div class="feedback__text py-4">
-              <p class="leading-relaxed text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+            <div class="feedback__text">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
                 velit?</p>
             </div>
-            <div class="feedback__person flex py-4">
+            <div class="feedback__person">
               <div><img src="./assets/imgs/Avatar Image (1).png" alt=""
                   class="po-person__img h-16 w-16 rounded-full pr-5"></div>
               <div class="po-person__name flex flex-col">
-                <span class="text-lg semibold">sam sam</span>
-                <span class="text-lg">@fdghh</span>
+                <span>sam sam</span>
+                <span>@fdghh</span>
               </div>
             </div>
           </div>
-          <div class="po-feedback-card po-box muted-border">
-            <div class="feedback__icon py-4">
+          <div class="po-feedback-card">
+            <div class="feedback__icon">
               <img src="./assets/imgs/Stars.png" alt="">
             </div>
-            <div class="feedback__text py-4">
-              <p class="leading-relaxed text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+            <div class="feedback__text">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
                 velit?</p>
             </div>
-            <div class="feedback__person flex py-4">
+            <div class="feedback__person">
               <div><img src="./assets/imgs/Avatar Image (2).png" alt=""
                   class="po-person__img h-16 w-16 rounded-full pr-5"></div>
               <div class="po-person__name flex flex-col">
-                <span class="text-lg semibold">sam sam</span>
-                <span class="text-lg">@fdghh</span>
+                <span>sam sam</span>
+                <span>@fdghh</span>
               </div>
             </div>
           </div>
@@ -254,14 +261,11 @@
       <!-- end section 5 testimonials -->
       <!-- start section 6 contact me-->
       <section class="po-sec po-contact-sec" id="contact-me">
-        <div class="po-contact-title">
-          <div class="sec-title">
+        <div class="po-contact-title sec-title">
             <span>get in touch</span>
             <h2>contact me</h2>
-          </div>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
-
         <div class="po-contact-container">
           <form action="" class="po-contact-form">
             <div class="po-contact__name">

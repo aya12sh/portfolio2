@@ -21,8 +21,49 @@ a {
     padding-left: var(--2xl);
     padding-right: var(--2xl);
     margin-top: var(--3xl);
+    min-height: 100vh;
 }
 
 figure {
     margin: 0;
 }
+
+.skill-card {
+    background-color: var(--shade-color);
+    border-radius: 4px;
+    padding: 24px;
+    max-width: 18%;
+}
+.po-skill__icon{
+    background-color: white;
+    width: var(--2xl);
+    height: var(--2xl);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0 , 0, 0.1);
+}
+.po-portfolio__projects{
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.po-project__card{
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0 , 0, 0.1);
+}
+.po-project__card-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 356px;
+}
+.po-project__card:nth-child(2)>div:first-child{
+    background-image:  url("../../assets/imgs/po-protofolio.png");
+    }
+.po-project__card:first-child>div:first-child{
+background-image: url("../../assets/imgs/po-3.png");
+}
+.po-project__card:nth-child(3)>div:first-child{
+    background-image: url("../../assets/imgs/po-2.png");
+    }
