@@ -15,6 +15,13 @@
   margin-top: var(--lg);
 }
 
+.po-expertise-sec{
+  flex-direction: column;
+}
+
+.po-expertise-sec>div:first-child{
+align-self: self-start;
+}
 .po-skills-container {
   gap: 2rem;
   margin-top: var(--4xl);
@@ -43,4 +50,24 @@ text-transform: capitalize;
   line-height: 1.5;
   font-weight: 500;
   color: var(--body-color);
+}
+.btn-dribble>svg{
+  margin-right: 12px;
+}
+.po-testimonial__container{
+  gap: 2rem;
+} 
+.po-testimonial__title{
+  margin-bottom: 6rem;
+}
+.po-contact-form>*{
+margin-top: 2rem;
+gap: 2rem;
+}
+.po-contact-form label{
+  gap: 0.5rem 0;
+}
+.po-footer__nav > ul > li:not(.po-footer__nav > ul > li:first-child){
+  margin-left: 2rem;
+
 }
