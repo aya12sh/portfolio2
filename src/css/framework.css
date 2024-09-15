@@ -44,6 +44,7 @@
   font-size: 0.95rem;
   text-transform: capitalize;
   max-width: 15rem;
+  min-width: 8rem ;
   transition: all 0.3s ease-in;
   display: flex;
   align-items: center;

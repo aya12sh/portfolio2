@@ -69,5 +69,18 @@ gap: 2rem;
 }
 .po-footer__nav > ul > li:not(.po-footer__nav > ul > li:first-child){
   margin-left: 2rem;
-
+}
+.po-footer__icon-container>ul{
+  gap: 1rem;
+}
+.po-footer{
+  height: 20rem;
+  background-color: var(--shade-color);
+  padding-top: 4rem;
+  margin-top: 6rem;
+}
+.po-footer__policies{
+  border-top: 1px solid;
+  padding-top: 2rem;
+  margin: 6rem var(--2xl) 0 var(--2xl) ;
 }
