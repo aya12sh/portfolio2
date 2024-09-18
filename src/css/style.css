@@ -3,6 +3,7 @@
 @import "./framework.css";
 @import "./header.css";
 @import "./sections.css";
+@import "./queries.css";
 
 :root {
   --primary-color: #5E3BEE;

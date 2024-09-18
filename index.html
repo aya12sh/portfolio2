@@ -18,11 +18,11 @@
     <!-- start header by aya -->
     <header class="po-header flex justify-between items-center space-x-2xl">
       <a href="/" class="po-header__logo">
-        <img src="./assets/imgs/Logologo.png" alt="portfolio" width="164">
+        <img src="./assets/imgs/Logologo.png" alt="portfolio" width="124">
       </a>
       <nav class="po-header__nav">
         <ul class="flex po-header__list">
-          <li><a href="#home">home</a></li>
+          <li><a href="#home" class="active">home</a></li>
           <li><a href="#expertise">expertise</a></li>
           <li><a href="#about">about me</a></li>
           <li><a href="#portfolio">portfolio</a></li>
@@ -32,7 +32,21 @@
       <div class="po-header__contact">
         <button type="button" class="btn btn-border">contact me</button>
       </div>
+      <button class="po-menu__container" style="background-color: transparent; border: none; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="17.5" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+      </button>
     </header>
+    <div class="po-mega_menu">
+      <nav class="po-mega__nav">
+        <ul class="flex flex-col po-maga__list">
+          <li><a href="#home" class="active">home</a></li>
+          <li><a href="#expertise">expertise</a></li>
+          <li><a href="#about">about me</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#testimonials">testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
     <!-- end header -->
     <!-- start content section -->
     <div class="po-contact-container">
@@ -167,9 +181,9 @@
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#" class="">
-                view in dribble
-                <i class=""></i>
+              <a href="#" class="flex items-center">
+                <span>view in dribble</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="20" width="20" style="transform: rotate(45deg); margin-left:8px;"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
               </a>
             </div>
           </div>
@@ -182,9 +196,9 @@
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#">
-                view in dribble
-                <i class="fa-solid fa-arrow-up"></i>
+              <a href="#" class="flex items-center">
+                <span>view in dribble</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="20" width="20"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
               </a>
             </div>
           </div>
@@ -197,9 +211,9 @@
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#">
-                view in dribble
-                <i class="fa-solid fa-arrow-up"></i>
+              <a href="#" class="flex items-center">
+                <span>view in dribble</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="20" width="20"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
               </a>
             </div>
           </div>
@@ -377,6 +391,7 @@
     <!-- end footer -->
 
   </main>
+  <script src="./src/js/main.js"></script>
 </body>
 
 </html>

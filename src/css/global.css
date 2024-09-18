@@ -18,9 +18,9 @@ a {
 }
 
 .po-sec {
-    padding-left: var(--2xl);
-    padding-right: var(--2xl);
-    margin-top: var(--3xl);
+    padding-left: var(--md);
+    padding-right: var(--md);
+    padding-top: var(--3xl);
     min-height: 100vh;
 }
 
@@ -33,6 +33,14 @@ figure {
     border-radius: 4px;
     padding: 24px;
     max-width: 18%;
+    transition: all 0.2s ease-in;
+}
+.skill-card:hover{
+    border-bottom: 2px solid var(--primary-color);
+    transform: scale(1.01);
+}
+.po-skill__text p {
+    line-height: 1.5;
 }
 
 .po-skill__icon {

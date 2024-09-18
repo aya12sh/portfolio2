@@ -1,0 +1,25 @@
+@media (min-width: 640px) {
+  .po-sec {
+    padding-left: var(--2xl);
+    padding-right: var(--2xl);
+    /* padding-top: var(--3xl); */
+  }
+  .space-x-2xl{
+    padding-left: var(--2xl);
+    padding-right: var(--2xl);
+  }
+  .po-header__nav, .po-header__contact{
+    display: block;
+  }
+  .po-menu__container{
+    display: none;
+}
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}

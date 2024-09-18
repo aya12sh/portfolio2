@@ -32,9 +32,10 @@
     padding-left: var(--xl);
     padding-right: var(--xl);
 }
+ /* see the media query line 7 */
 .space-x-2xl{
-    padding-left: var(--2xl);
-    padding-right: var(--2xl);
+    padding-left: var(--md);
+    padding-right: var(--md);
 }
 .btn{
  border: 1px solid transparent;

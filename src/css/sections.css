@@ -1,3 +1,6 @@
+.po-home-sec{
+  background-color: var(--shade-color);
+}
 .po-home-sec>* {
   width: 50%;
 }
