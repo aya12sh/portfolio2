@@ -1,8 +1,10 @@
 .po-home-sec{
   background-color: var(--shade-color);
+  flex-direction: column-reverse;
+  gap: 2rem;
 }
 .po-home-sec>* {
-  width: 50%;
+  width: 100%;
 }
 
 .po-home-sec h1>span {

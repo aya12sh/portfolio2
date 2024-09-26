@@ -11,8 +11,15 @@
   .po-header__nav, .po-header__contact{
     display: block;
   }
-  .po-menu__container{
+  .po-menu__btn, .po-mega_menu{
     display: none;
+}
+.po-home-sec{
+  flex-direction: row;
+  gap: 0;
+}
+.po-home-sec>* {
+  width: 50%;
 }
 }
 
