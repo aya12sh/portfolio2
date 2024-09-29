@@ -32,7 +32,7 @@ figure {
     background-color: var(--shade-color);
     border-radius: 4px;
     padding: 24px;
-    max-width: 18%;
+    max-width: 100%;
     transition: all 0.2s ease-in;
 }
 .skill-card:hover{
