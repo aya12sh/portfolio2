@@ -35,14 +35,15 @@
   align-self: self-start;
 }
 
-.po-skills-container {
+.po-skills-container,
+.po-about-sec {
   gap: 2rem;
   margin-top: var(--4xl);
 }
 
-.po-about-sec>* {
+/* .po-about-sec>* {
   width: 50%;
-}
+} */
 
 .po-about-sec .po-text-container>p {
   line-height: 1.5;
